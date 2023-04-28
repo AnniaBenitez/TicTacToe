@@ -53,7 +53,7 @@ cells.forEach(cell => {
             } 
             else if (checkTie()) {
                 gameEnd = true;
-                alert("Excelente juego, es un empate!");
+                identificacion.innerHTML= `<h2>Es un empate!</h2>`;
             } 
             else {
             currentPlayer = currentPlayer === "X" ? "O" : "X";

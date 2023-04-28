@@ -1,0 +1,49 @@
+<!-- nuestro index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="./extra/icono.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script
+            type="text/javascript"
+            src="https://code.jquery.com/jquery-1.11.0.js"
+            defer>
+        </script>
+        <script src = './js/scriptConfetti.js' defer></script>
+  </head>
+  <body>
+      <div id="titulo">
+        <img class="imagen" src="./extra/cruzar.png">
+        <h1>TIC TAC TOE </h1>
+        <img class="imagen" src="./extra/circulo.png">
+      </div>      
+      <div id="identificacion">
+        <div id="jugador1">
+          <p>Nombre del jugador X: </p>
+          <input type="text" id="nombre1">
+        </div>
+        <div id="jugador2">
+          <p>Nombre del jugador O: </p>
+          <input type="text" id="nombre2">
+        </div>
+      </div>
+      <div id="board">
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+        <div class="cells"></div>
+      </div>      
+      <div id = 'confetti'></div>
+      <div id="divBoton">
+        <button id="boton">Reiniciar Juego</button>
+      </div>
+      <script src="./js/script.js"></script>
+    </body>
+</html>
